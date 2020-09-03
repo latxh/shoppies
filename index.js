@@ -9,6 +9,14 @@ let cardPlaceholderElm = document.getElementById('cardPlaceholder');
 
 let nominations = [null, null, null, null, null];
 
+const popup = document.querySelector('.full-screen');
+console.log(popup);
+
+function togglePopup() {
+    popup.classList.toggle('hidden');
+
+}
+
 
 async function search(first) {
     console.log("Searched", first, searchElm.value);
