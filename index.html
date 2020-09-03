@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- [if lt IE 9]>
+         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![end if]-->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="description" content="The Shoppies by Brian Latchman">
+    <title>The Shoppies</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Source+Serif+Pro:wght@600&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preload" href="assets/placeholder.png" as="image">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h2 id='banner'>You have reached 5 nominations</h2>
+            <div class='header-row'>
+                <h1>The Shoppies</h1>
+                <!-- Main content -->
+                <form onsubmit="event.preventDefault() || search()">
+                    <div class="search-icon">
+                        <input id="searchElm" name="Search" type="search" placeholder="Search movie..."
+                            autocomplete='off'>
+                        <div class="search-icon-wrapper" onclick="search()">
+                            <svg role="presentation" viewBox="0 0 32 32" width="19" height="19" fill="none"
+                                stroke="#919EAB" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                                <circle cx="14" cy="14" r="12" />
+                                <path d=" M23 23 L30 30" />
+                            </svg>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </header>
+
+        <main>
+            <h2 class="card-title">Your Nominations</h2>
+            <div class="horizontal-scroll">
+                <div id='nominations'>
+                    <div class='movie-card-containter'>
+                        <div class="card-placeholder"></div>
+                    </div>
+                    <div class='movie-card-containter'>
+                        <div class="card-placeholder"></div>
+                    </div>
+                    <div class='movie-card-containter'>
+                        <div class="card-placeholder"></div>
+                    </div>
+                    <div class='movie-card-containter'>
+                        <div class="card-placeholder"></div>
+                    </div>
+                    <div class='movie-card-containter'>
+                        <div class="card-placeholder"></div>
+                    </div>
+                </div>
+            </div>
+            <h2 id='results' class="card-title"></h2>
+            <div id='cardContainer'></div>
+
+            <template id='cardPlaceholder'>
+                <div class='movie-card-containter'>
+                    <div class="card-placeholder"> </div>
+                </div>
+            </template>
+            <template id='movieCard'>
+                <div class='movie-card-containter'>
+                    <div class='nominate'>NOMINATE</div>
+                    <div class='remove'>REMOVE</div>
+                    <div class='nominate-shadow'></div>
+                    <div class="card">
+                        <img class='poster'>
+                        <div class='info'>
+                            <div class='year'></div>
+                            <div class='title'></div>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </main>
+
+        <footer>
+            <p>Footer</p>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
