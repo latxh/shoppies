@@ -17,4 +17,4 @@ Implemented completely using HTML, CSS and Vanilla Javascript.
 
 ### Contact Me
 
-[github](https://github.com/latxh), [linkedin](https://www.linkedin.com/in/brian-latchman/), [personal website](https://latchman.ca/) and [email](mailto:latxhman@gmail.com).
+[Github](https://github.com/latxh) | [Linkedin](https://www.linkedin.com/in/brian-latchman/) | [Personal Website](https://latchman.ca/) | [Email](mailto:latxhman@gmail.com)
