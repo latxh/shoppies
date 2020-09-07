@@ -25,11 +25,12 @@
             <div class='header-row'>
                 <h1>The Shoppies</h1>
                 <!-- Main content -->
-                <form onsubmit="event.preventDefault() || search()">
+                <!-- Dont do main action, instead call search -->
+                <form onsubmit="event.preventDefault() || search(false)">
                     <div class="search-icon">
                         <input id="searchElm" name="Search" type="search" placeholder="Search movie..."
                             autocomplete='off'>
-                        <div class="search-icon-wrapper" onclick="search()">
+                        <div class="search-icon-wrapper" onclick="search(false)">
                             <svg role="presentation" viewBox="0 0 32 32" width="19" height="19" fill="none"
                                 stroke="#919EAB" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                                 <circle cx="14" cy="14" r="12" />
@@ -67,11 +68,11 @@
 
             <template id='cardPlaceholder'>
                 <div class='movie-card-containter'>
-                    <div class="card-placeholder"> </div>
+                    <div class="card-placeholder"></div>
                 </div>
             </template>
             <template id='movieCard'>
-                <div class='movie-card-containter'>
+                <div class='movie-card-containter' onclick="toggleNominated(this)">
                     <div class='nominate'>NOMINATE</div>
                     <div class='remove'>REMOVE</div>
                     <div class='nominate-shadow'></div>
@@ -87,7 +88,7 @@
         </main>
 
         <footer>
-            <p>Footer</p>
+            <p class="text-footer">The Shoppies by <a href="https://latchman.ca/" target="_blank">Brian Latchman</a></p>
         </footer>
     </div>
     <script src="index.js"></script>

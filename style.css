@@ -143,8 +143,9 @@ color: #C9C9C9;
 text-align: left;
 }
 
-footer {
-
+p{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
 }
 
 .search-icon-wrapper:hover{
@@ -201,6 +202,7 @@ margin-top: 20px;
 }
 
 #nominations{
+padding: 0.3rem;
 /* overflow-x: auto; */
 grid-auto-flow: column;
 /* margin-right: 3rem; */
@@ -265,10 +267,10 @@ transition: 0.25s all;
 
 }
 
-#nominations .movie-card-containter{
+/* #nominations .movie-card-containter{
 opacity: 1;
 animation: 1s fadeIn;
-}
+} */
 
 .movie-card-containter{
 position: relative;
