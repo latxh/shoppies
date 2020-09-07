@@ -8,6 +8,8 @@ _"Shopify has branched out into movie award shows and we need your help. Please 
 
 ### Features
 
+Implemented completely using HTML, CSS and Vanilla Javascript.
+
 - Search results provided from [OMDB's API](http://www.omdbapi.com/apikey.aspx)
 - Click on a card to nominate/remove from your nominations
 - When user nominates 5 movies banner appears as a visual indicator
