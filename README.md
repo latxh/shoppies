@@ -15,6 +15,6 @@ Implemented completely using HTML, CSS and Vanilla Javascript.
 - When user nominates 5 movies banner appears as a visual indicator
 - Animations for adding/deleting and loading the movie cards
 
-### Contact Me
+### More Me
 
 [Github](https://github.com/latxh) | [Linkedin](https://www.linkedin.com/in/brian-latchman/) | [Personal Website](https://latchman.ca/) | [Email](mailto:latxhman@gmail.com)
