@@ -2,8 +2,6 @@
 
 _"Shopify has branched out into movie award shows and we need your help. Please build us an app to help manage our movie nominations for the upcoming Shoppies."_ - The task.
 
-[Full Challenge Details](https://docs.google.com/document/d/1AZO0BZwn1Aogj4f3PDNe1mhq8pKsXZxtrG--EIbP_-w/edit#).
-
 [My Solution's Hosted Site](https://latxh.github.io/Shoppies/).
 
 ### Features
