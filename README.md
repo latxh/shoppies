@@ -2,7 +2,7 @@
 
 _"Shopify has branched out into movie award shows and we need your help. Please build us an app to help manage our movie nominations for the upcoming Shoppies."_ - The task.
 
-[My Solution's Hosted Site](https://latxh.github.io/Shoppies/).
+[My Solution's Hosted Site](https://latxh.github.io/shoppies/).
 
 ### Features
 
